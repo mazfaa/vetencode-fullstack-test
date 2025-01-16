@@ -34,11 +34,11 @@
           <div class="modal-body">
             <input type="hidden" id="userId">
             <div class="mb-3">
-              <label for="name" class="form-label">Name</label>
+              <label for="name" class="form-label">Name *</label>
               <input type="text" class="form-control" id="name" name="name" required>
             </div>
             <div class="mb-3">
-              <label for="role_id" class="form-label">Role</label>
+              <label for="role_id" class="form-label">Role *</label>
               <select class="form-control" id="role_id" name="role_id" required>
                 <option value="">Select Role</option>
                 @foreach ($roles as $role)
@@ -47,15 +47,15 @@
               </select>
             </div>
             <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
+              <label for="email" class="form-label">Email *</label>
               <input type="email" class="form-control" id="email" name="email" required>
             </div>
             <div class="mb-3">
-              <label for="phone" class="form-label">Phone</label>
+              <label for="phone" class="form-label">Phone *</label>
               <input type="text" class="form-control" id="phone" name="phone" required>
             </div>
             <div class="mb-3">
-              <label for="address" class="form-label">Address</label>
+              <label for="address" class="form-label">Address *</label>
               <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
             </div>
             <div class="mb-3">
